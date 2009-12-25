@@ -1,0 +1,16 @@
+URxvt.buffered: true
+URxvt.background: black
+URxvt.foreground: cyan
+URxvt.cursorColor: green
+URxvt.underlineColor: yellow
+URxvt.title: Archwiki
+urxvt.scrollBar: false
+urxvt*font: xft:Terminus:pixelsize=14:antialias=true:hinting=true
+urxvt*boldFont: xft:Terminus:pixelsize=14:antialias=true:bold:hinting=true
+urxvt*italicFont: xft:Terminus:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
+urxvt*bolditalicFont: xft:Terminus:pixelsize=14:antialias=true:bold:italic:autohint=true:hinting=true
+!URxvt.perl-ext-common: default,tabbed
+URxvt.perl-ext: default,matcher
+URxvt.urlLauncher: /usr/bin/firefox
+URxvt.matcher.button: 1 
+urxvt.transparent: true
