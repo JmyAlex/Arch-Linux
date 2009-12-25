@@ -23,9 +23,11 @@ set sidescrolloff=5
 set t_Co=256
 set guifont=terminus
 se nu
+colorscheme torte
+"language english
 
 
-hi CursorLine guibg=#dbdbdb gui=none
+hi CursorLine guibg=#dbdbdb
 hi Directory ctermfg=64
 au BufRead,BufNewFile *.djhtml        setfiletype htmldjango
 
