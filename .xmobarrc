@@ -1,4 +1,4 @@
-Config { font         = "-*-terminus-*-*-*-*-12-*-*-*-*-*-*-u"  
+Config { font         = "-*-terminus-medium-*-normal-*-12-*-*-*-*-*-*-u"  
              , bgColor      = "#000000"
              , fgColor      = "#00FFFF"
              , position =  Top
@@ -9,9 +9,12 @@ Config { font         = "-*-terminus-*-*-*-*-12-*-*-*-*-*-*-u"
                               , Run Memory ["-t","Mem: <usedratio>%", "-l", "green", "--normal","orange","--high","red"] 40
                               , Run Date "%a %b %_d %H:%M" "date" 60
                               , Run CpuFreq ["-t","Freq:<cpu0>|<cpu1>GHz","-L","0","-H","2","-l","green","-n","orange","-h","red"] 50
+                              , Run Battery ["-l","red","-n","orange","-h","green"] 10
                               , Run StdinReader
                               ]
-             , sepChar      = "%"
+             , sepChar      = "%" 
              , alignSep     = "}{"
-             , template = " %StdinReader% }{ %cpu% @ %cpufreq% <fc=#0033FF>|</fc>  %memory% <fc=#0033FF>|</fc> %eth0% <fc=#0033FF>| %battery% |</fc> %date%"
+             , template = " %StdinReader% }{ %cpu% @ %cpufreq% <fc=#0033FF>|</fc> %memory% <fc=#0033FF>|</fc> %eth0% <fc=#0033FF>|</fc> %battery% <fc=#0033FF>|</fc> %date%"
              }
+
+
