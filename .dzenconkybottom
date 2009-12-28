@@ -1,0 +1,7 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 1
+total_run_times 0
+TEXT
+^fg(brown) ^i(/root/xbm8x8/net_up_01.xbm)^fg(darkgrey) ${totalup eth0}^fg(brown) ^i(/root/xbm8x8/net_down_01.xbm)^fg(darkgrey) ${totaldown eth0} ^fg(brown)^i(/root/dzen_bitmaps/arr_down.xbm)^fg(darkgrey)${downspeedf eth0}K/s^fg(brown)^i(/root/dzen_bitmaps/arr_up.xbm)^fg(darkgrey)${upspeedf eth0}K/s  ^fg(brown)^i(/root/xbm8x8/fs_02.xbm)^fg(darkgrey) / ${fs_used_perc /}% ${fs_bar /} /home ${fs_used_perc /home}% ^fg(red)^i(${exec ~/scripts/dzen/mpd_stat.sh}) ^fg(white)$mpd_smart
