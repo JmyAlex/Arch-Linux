@@ -1,0 +1,7 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 1
+total_run_times 0
+TEXT
+^fg(darkgrey)${exec skb 1} ^fg(brown)^i(/root/dzen-xbm-pack/power-bat.xbm) ^fg(darkgrey)${battery_percent}% ^fg(brown) ^i(/root/dzen-xbm-pack/cpu.xbm) ^fg(darkgrey)${cpu cpu1}% ^fg(brown)^i(/root/dzen-xbm-pack/mem.xbm)^fg(darkgrey) ${mem} | ${memperc}%  ^i(/root/dzen_bitmaps/mini.clock2.xpm)^fg(darkgrey) ${time %a %b %d %H:%M} ${mixerbar} 
